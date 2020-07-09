@@ -1,0 +1,43 @@
+.info_block img {
+    width: 200px;
+    border-radius: 25px;
+}
+
+.info_block {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
+
+.contacs {
+    font-weight: bold;
+}
+
+.status {
+    margin-top: -15px;
+}
+
+.statusP {
+    cursor: pointer;
+}
+
+.error {
+    color: darkred;
+}

@@ -1,0 +1,99 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    width: 75%;
+    height: 150px;
+    grid-template-areas: 'photo info location' 'buttonFol info location';
+    border: solid black 1px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.photo {
+    grid-area: photo;
+}
+
+.photo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.buttonS {
+    grid-area: buttonFol;
+    margin: 5px;
+    margin-bottom: 10%;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: #1C4480;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonS:hover{
+    transition: all 0.5s;
+    background: linear-gradient(45deg, #fff, #1C4480 200%);
+    color: #1C4480;
+}
+
+a {
+    cursor: pointer;
+}
+
+.info {
+    grid-area: info;
+}
+
+.location {
+    grid-area: location;
+    margin: 20px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 120%;
+    margin: 20px;
+}
+
+.status {
+    margin-top: 5%;
+    margin-left: 20px;
+}
+
+.country, .city {
+    margin-bottom: 5%;
+}
+
+.pageNumber {
+    margin: 3px;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.paginator {
+    text-align: center
+}
+
+.buttonNav {
+    margin: 5px;
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background-color: #1C4480;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonNav:hover{
+    transition: all 0.5s;
+    background: linear-gradient(45deg, #fff, #1C4480 200%);
+    color: #1C4480;
+}

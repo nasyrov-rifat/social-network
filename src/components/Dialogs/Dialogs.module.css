@@ -1,0 +1,42 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.dialogs_names {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.messages {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.messages img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.inputM {
+    margin: 20px;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.buttonSend {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: #1C4480;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.buttonSend:hover{
+    transition: all 0.5s;
+    background: linear-gradient(45deg, #fff, #1C4480 200%);
+    color: #1C4480;
+}

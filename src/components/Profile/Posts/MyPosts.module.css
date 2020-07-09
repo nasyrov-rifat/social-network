@@ -1,0 +1,26 @@
+.h2 {
+    margin: 20px;
+}
+
+.input {
+    margin: 20px;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.button_add {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: #1C4480;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button_add:hover{
+    transition: all 0.5s;
+    background: linear-gradient(45deg, #fff, #1C4480 200%);
+    color: #1C4480;
+}

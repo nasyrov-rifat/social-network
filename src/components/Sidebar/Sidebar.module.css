@@ -1,0 +1,39 @@
+.app_sidebar {
+    grid-area: s;
+    margin-left: 150px;
+    padding-right: 50px;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+}
+
+.item {
+    color: black;
+    font-size: 120%;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item:hover{
+    background: linear-gradient(45deg, rgba(28, 68, 128, 0.35), rgba(0, 0, 0, 0) 90%);
+}
+
+.item:hover::before{
+    color: #1C4480;
+    transition: all 0.3s;
+}
+
+.item.active {
+    font-weight: bold;
+    background: linear-gradient(45deg, rgba(28, 68, 128, 0.35), rgba(0, 0, 0, 0) 90%)
+}
+
+.app_sidebar img {
+    width: 20px;
+}
+
+.friendsDiv {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}

@@ -1,0 +1,24 @@
+.item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.item {
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background-color: white;
+    width: 100%;
+}
+
+.likes {
+    margin-left: 90%;
+}
+
+.likes img {
+    width: 15px;
+    height: 15px;
+}

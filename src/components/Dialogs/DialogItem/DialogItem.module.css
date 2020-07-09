@@ -1,0 +1,25 @@
+.dialog {
+    margin: 7px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.dialog:hover{
+    background: lightgray;
+    border-radius: 5px;
+}
+
+.dialog:hover::before{
+    color: lightgray;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.user_dialog {
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+    margin-left: 3%;
+}

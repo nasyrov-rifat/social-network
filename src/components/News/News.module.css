@@ -1,0 +1,28 @@
+.clickButton {
+    width: 75px;
+    height: 30px;
+    color: #fff;
+    background-color: #1C4480;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.clickButton:hover {
+    transition: all 0.5s;
+    background: linear-gradient(45deg, #fff, #1C4480 200%);
+    color: #1C4480;
+}
+
+.clicker{
+    border: solid lightgray 1px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clicker p {
+    font-weight: bold;
+}

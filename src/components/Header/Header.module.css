@@ -1,0 +1,36 @@
+.app_header {
+    grid-area: h;
+    background-color: #1C4480;
+}
+
+.app_header img {
+    height: 80px;
+}
+
+.login {
+    color: white;
+    float: right;
+    margin: 25px;
+    font-weight: bold;
+}
+
+.login a {
+    color: white;
+}
+
+.buttonOut {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: #1C4480;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.buttonOut:hover{
+    transition: all 0.5s;
+    background: linear-gradient(45deg, #fff, #1C4480 200%);
+    color: #1C4480;
+}

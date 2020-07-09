@@ -1,0 +1,42 @@
+.dwsInput input:hover{
+    box-shadow: 0 0 6px 3px rgba(28, 68, 128, 0.35);
+}
+
+.dwsInput:hover::before{
+    color: #1C4480;
+    transition: all 0.3s;
+}
+
+.dwsSubmit {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: #1C4480;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dwsSubmit:hover{
+    transition: all 0.5s;
+    background: linear-gradient(45deg, #fff, #1C4480 200%);
+    color: #1C4480;
+}
+
+form div {
+    margin: 10px;
+}
+
+.container{
+    width:450px;
+    background-color: rgba(24, 33, 52, 0.7);
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #1C4480;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-geometric-poster-banner-gradient-purple-geometry-image_12275.jpg");
+}
+
+.loginError {
+    color: darkred;
+}
